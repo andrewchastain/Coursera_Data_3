@@ -16,10 +16,10 @@ work on the target data automatically. There is no error handling, as this is
 meant to be a quick script for a course. If the download location changes, good
 luck. There are two flags that can be changed in the file before running, LNT
 and SEPA. The default is LNT = TRUE and SEPA = FALSE.
-# LNT (Leave no trace)
+#### LNT (Leave no trace)
   If TRUE, deletes all tibbles except two outputs: subxy and subyx_summ
 
-# SEPA (Separate)
+#### SEPA (Separate)
   If TRUE, separates the variable into variable, function, dimension. 
   Introduces NAs when dim doesn't exist. The assignment wasn't clear to me if 
   activity should be separated, as that would be a more tidy state.
